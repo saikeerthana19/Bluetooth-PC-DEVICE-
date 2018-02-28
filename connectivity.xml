@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root name="Connectivity">
+	<root name="BLUETOOTH">
+		<children name="BT_Adapter_ON_OFF" action="python BT_Adapter_ON_OFF.py"></children>
+		<children name="BT_on_off" action="python BT_on_off.py"></children>
+		<children name="BT_scan_on" action="python BT_scan_on.py"></children>
+		<children name="BT_pair_unpair" action="python BT_pair_unpair.py"></children>
+		<children name="BT_connect" action="python connect.py"></children>
+		<children name="BT_disconnect" action="python disconnect.py"></children>
+		<children name="BT_FTP_S" action="python BT_send.py"></children>
+		<children name="BT_FTP_R" action="python BT_receive.py"></children>
+		<children name="BT_scan_off" action="python BT_scan_off.py"></children>
+		<children name="BT_pair" action="python pair.py"></children>
+		
+	</root>
+	
+</root>
